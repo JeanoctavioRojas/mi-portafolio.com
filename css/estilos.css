@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  :focus {
+    outline: none;
+  }
+  
+  body {
+    background: #EC610B;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  form {
+    margin: auto;
+    width: 60%;
+    max-width: 500px;
+    background: #d1580d;
+    padding: 20px;
+    border-radius: 10px;
+    outline: 8px solid rgb(202, 117, 20);
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 50px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Arial Black;
+  }
+  
+  input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 27px 0;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    background: linear-gradient(#FFDA63, #FFB940);
+    border: 0;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+     font-family: Arial;
+    border-radius: 20px;
+    margin-bottom: 0;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: 1;
+  
+    
+  }
+  
+  input[type="submit"]:active {
+    transform: scale(0.95);
+  
+  }
+  #enviar1 {
+    margin-bottom: 1em;
+  }
+  
+  
+
+  h1 {
+    color: blue;
+    text-align: center;
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+  }
+  a li{
+    background-color: #600;
+    margin: .7em auto;
+    text-align: center;
+    width: 70%;
+    padding: 0.3em;
+    color: rgb(68, 196, 218);
+    border-radius: 10px;
+  }
+
+  ul {
+    list-style: none;
+  }
+ 
+
+  @media (max-width:768px) {
+    form {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:480px) {
+    form {
+      width: 100%;
+    }
+  }
+
+  .probando {
+    background-color:rgb(68, 51, 51);
+  }
