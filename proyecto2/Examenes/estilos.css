@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+  }
+  
+  :focus {
+    outline: none;
+  }
+  
+  body {
+    background: #EC610B;
+    display: flex;
+    min-height: 100vh;
+  }
+  
+  form {
+    margin: auto;
+    width: 60%;
+    max-width: 500px;
+    background: #d1580d;
+    padding: 20px;
+    border-radius: 10px;
+    outline: 8px solid rgb(202, 117, 20);
+  }
+  
+  .form-admin-index {
+    outline: 5px solid rgb(202, 117, 20)
+  }
+  h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Arial Black;
+  }
+  
+  input {
+    display: block;
+    padding: 10px;
+    width: 100%;
+    margin: 30px 0;
+    font-size: 20px;
+  }
+  
+  input[type="submit"] {
+    background: linear-gradient(#FFDA63, #FFB940);
+    border: 0;
+    color: black;
+    opacity: 0.8;
+    cursor: pointer;
+     font-family: Arial;
+    border-radius: 20px;
+    margin-bottom: 0;
+  }
+  
+  input[type="submit"]:hover {
+    opacity: 1;
+  
+    
+  }
+  
+  input[type="submit"]:active {
+    transform: scale(0.95);
+  
+  }
+  
+  #enviar1 {
+    margin-bottom: 1em;
+  }
+  
+  
+
+  h1 {
+    color: lightblue;
+    text-align: center;
+    font-family: 'Alfa Slab One', cursive;
+    
+  }
+
+  .probando123{
+    margin: 10px auto;
+    background-color:rgb(77, 58, 58)
+  }
+
+  a{
+    list-style: none;
+    text-decoration: none;
+  }
+  a li{
+    background-color: rgb(90, 67, 67);
+    margin: .7em auto;
+    text-align: center;
+    width: 70%;
+    padding: 0.3em;
+    color: rgb(68, 196, 218);
+    border-radius: 10px;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  .limenu {
+    background-color: #e38c0d;
+    padding: 16px;
+    color: rgb(88 13 13);
+  
+  }
+  a .limenu:hover {
+    background-color: #d4840d;
+  }
+  li input {
+    margin-top: 20px auto;
+  }
+  a{
+    margin: 0.5em auto;
+    padding: 0.3em;
+  }
+
+  .pruebadatos{
+   margin: 0.7em;
+   
+  }
+
+  .menuadmin {
+    background-color: #ff9222;
+}
+  .formadmin {
+    background-color: #e7821d;
+
+  }
+
+  li input::selection{
+    color: #fff;
+    background-color: #000;
+  }
+
+  input::selection {
+    color: red;
+    background-color: yellow;
+  }
+
+  a li:hover {
+    background-color: rgb(75, 55, 55);
+  }
+  
+  .limenuadmin {
+    margin: 10px auto;
+  }
+  
+  @media (max-width:768px) {
+    form {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width:480px) {
+    form {
+      width: 100%;
+    }
+  }
