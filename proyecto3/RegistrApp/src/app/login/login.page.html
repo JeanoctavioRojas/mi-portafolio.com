@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title>Bienvenido</ion-title>
+  </ion-toolbar>
+  
+  </ion-header>
+  
+  <ion-content>
+  <div>
+    <p>Su proxima clase es : Programación de aplicaciones móvile</p>
+    <p>Sala: Laboratorio 3</p>
+  </div>  
+  <div class="pagina-centrada">
+    <div >
+      <ion-img class= "imagen" src="https://i.imgur.com/ufnVyAD.png" style="height:150px ; width:150px"></ion-img>
+      <p>Escanea el codigo QR para confirmar tu asistencia</p>
+    <div class="boton">
+      <ion-button>Presiona para escanear codigo</ion-button>
+      <br>
+      <ion-button [routerLink]="['/home']" margin-t>Salir</ion-button>
+
+    </div>
+  </div>
+  </div>
+  
+  </ion-content >
+  <ion-footer > 
+    <ion-toolbar class="background-color-blue">
+      <ion-grid>
+        <ion-row>
+          <ion-col col-1>
+            <p>Telefono : (+56) 2 2999 3862</p>
+          </ion-col>
+          <ion-col col-1>
+            <p>Correo: duocuc@duoc.cl</p>
+          </ion-col>
+          <ion-col col-1>
+            <p>Direccion : Vicuña Mackenna 4917, San Joaquín</p>
+          </ion-col>
+        </ion-row>
+      </ion-grid>
+    </ion-toolbar>
+   
